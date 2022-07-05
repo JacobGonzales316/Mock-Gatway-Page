@@ -1,24 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import TestNav from './Components/TestNav';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import RoutingPaths from './RoutingPaths';
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <TestNav />
+        <Routes>
+          {/* <Route path='/Locations/northwest-campus' element={<NorthwestCampus/>}></Route>
+          <Route path="/Locations/bandera-campus" element={<BanderaCampus/>}></Route>
+          <Route path='/Locations/boerne-campus' element={<BoerneCampus />}></Route>
+          <Route path="/Locations/dt-campus" element={<DTCampus />}></Route>
+          <Route path='/Locations/fw-campus' element={<FWCampus />}></Route>
+          <Route path='/Locations/gonzales-campus' element={<GonzalesCampus />}></Route>
+          <Route path='/Locations/kerrville-campus' element={<KerrvilleCampus />}></Route>
+          <Route path="/Locations/medina-campus" element={<MedinaCampus />}></Route>
+          <Route path='/Locations/ws-campus' element={<WSCampus />}></Route>
+          <Route path='/Events/baptisms' element={<Baptism/>}></Route>           */}
+          {RoutingPaths}
+        </Routes>
+      </BrowserRouter>
     </div>
+  
   );
 }
 

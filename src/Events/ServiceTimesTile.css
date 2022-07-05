@@ -1,0 +1,13 @@
+h3 {
+    font-family: 900;
+    font-size: 25px;
+    align-items: center;
+}
+
+.serviceTile {
+    background: black;
+    border-radius: 15%;
+    padding: 15px;
+    width: 275px;
+    line-height: 12px;
+}

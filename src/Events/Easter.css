@@ -1,0 +1,47 @@
+.heading-banner img{
+    height: auto;
+    width: 100%;
+}
+
+.invitation-banner {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.easter-description {
+    display: flex;
+    position: relative;
+    height: auto;
+    width: 100%;
+
+}
+
+.description-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+.description-img img {
+    width: 100%;
+}
+
+.description-paragraph {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: green;
+    padding-left:80px;
+    padding-right: 80px;
+}
+
+.description-paragraph p {
+    align-items: center;
+    justify-content: center;
+    font-family: 6px;
+}
+

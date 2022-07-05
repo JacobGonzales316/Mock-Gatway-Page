@@ -1,0 +1,99 @@
+.location-page {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.heading {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    /* position: relative; */
+  }
+  
+  .heading img {
+    height: auto;
+    width: 100%; 
+  }
+  
+  .heading-message{
+    color: yellow;
+    font-weight: 900;
+    font-size: 30px;
+    /* position: absolute; */
+    align-items: center;
+    text-align: center;
+    left: 50%;
+    top: 10%;
+    
+  }
+
+  .grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .InfoTile {
+    height: 190px;
+    width: 600px;
+    margin-left: 30px;
+  }
+  
+  .InfoTileText {
+    width: 50%;
+    margin-left: 50%;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+  
+  }
+  
+  .InfoTileText h3 {
+    font-weight: 900;
+  }
+  
+  
+  .InfoTileText p {
+    font-size: 14px;
+    font-weight: 400;
+    color:  #3f3f3f ;
+  }
+  
+  .InfoTileText a{
+    font-weight: 900;
+  }
+  
+  .InfoTileImage {
+    width: 50%;
+    float: left;
+  }
+  
+  .InfoTileImage img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .InfoBanner {
+    display: inline-block;
+    padding-left: 10px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .InfoBanner h5 {
+    color: #282c34;
+  
+  }
+  
+  .InfoBanner p {
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  .InfoBanner button {
+    border-radius: 25px;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+  }
